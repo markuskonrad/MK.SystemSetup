@@ -52,3 +52,5 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install ThinkCell for PowerPoint ([Link Internal](https://ts.accenture.com/sites/QuickPresentationToolkit/tcdl/default.aspx ))
 * Run Filezilla from (`userfolder\Synology\Home\Tools\FileZilla-<version>`)
 * Import Filezilla profile from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
+* Install VLC ([Link](https://www.videolan.org/vlc/index.de.html))
+* Add Synology as Network Drive in QuickAccess
