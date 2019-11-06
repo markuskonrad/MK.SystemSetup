@@ -54,3 +54,4 @@ Goal was to have a simple step by step guide on a system refresh.
 * Import Filezilla profile from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
 * Install VLC ([Link](https://www.videolan.org/vlc/index.de.html))
 * Add Synology as Network Drive in QuickAccess
+* Install Postman App ([Link](https://www.getpostman.com/downloads/))
