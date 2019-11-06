@@ -55,3 +55,4 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install VLC ([Link](https://www.videolan.org/vlc/index.de.html))
 * Add Synology as Network Drive in QuickAccess
 * Install Postman App ([Link](https://www.getpostman.com/downloads/))
+* Setup Printer (Printers and Scanners --> Add --> Select the printer --> Add device)
