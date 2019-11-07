@@ -16,6 +16,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * Deactivate Automatic Mark as Read (Settings --> Mail --> Outlook panes --> Reading Pane... --> Uncheck all boxes)
   * Remove feature bar on right hand side (Click small hand-button in the Quick Access Bar to switch to Mouse Mode - [Link](<https://answers.microsoft.com/en-us/msoffice/forum/all/outlook-the-pop-out-button-is-missing/1b13d713-15db-4e8d-9e4a-004f5e22a089>))
 * Install Visio
+* Install MS Project
 * Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>))
 * Setup GMail on Firefox
 * SignIn to Teams
@@ -27,7 +28,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Register `default.ahk` on startup ([Link](<https://www.maketecheasier.com/schedule-autohotkey-startup-windows/>))
 * Install Synology Drive (Documents and Home)
 * Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))
-* Run Putty from synced Synology Drive folder (userfolder\Synology\Home\Tools\putty) and create shortcut
+* Install Putty (config comes from Registry)
 * Install and setup WinSCP - Sessions should come with Putty restore of Registry
 * Import Firefox Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
 * Import Chrome Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Chrome`)
@@ -49,6 +50,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * `Power Shell`
   * `Python`
   * `markdownlint`
+  * `Docker`
 * Install ThinkCell for PowerPoint ([Link Internal](https://ts.accenture.com/sites/QuickPresentationToolkit/tcdl/default.aspx ))
 * Run Filezilla from (`userfolder\Synology\Home\Tools\FileZilla-<version>`)
 * Import Filezilla profile from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
@@ -56,3 +58,5 @@ Goal was to have a simple step by step guide on a system refresh.
 * Add Synology as Network Drive in QuickAccess
 * Install Postman App ([Link](https://www.getpostman.com/downloads/))
 * Setup Printer (Printers and Scanners --> Add --> Select the printer --> Add device)
+* Install Docker for Windows ([Link](https://www.docker.com/products/docker-desktop)) and restart which triggers the  Hyper-V installation
+* Install Fiddler ([Link](https://www.telerik.com/fiddler))
