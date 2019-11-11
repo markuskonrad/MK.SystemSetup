@@ -49,7 +49,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * `Set-Theme Paradox`
 * Install powerline-fonts to enable the special icons in the prompt bar showing GIT status etc. ([Link Download](<https://github.com/powerline/fonts>))
 * Open Powershell settings via UI and select `Font --> DejaVu Sans Mono for Powerline`
-* Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](\WindowsTerminal\profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
+* Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](WindowsTerminal/profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
 * Install Visual Studio Code (Incl. File and Context Menu setting to `true`)
 * Install Extensions for Visual Studio Code
   * `C#`
