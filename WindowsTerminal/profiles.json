@@ -17,11 +17,9 @@
       "fontSize": 10,
       "startingDirectory": "c:\\git",
       "acrylicOpacity": 0.5,
-      //"background": "#012456",
       "useAcrylic": true,
-      //"icon": "ms-appdata:///roaming/pwsh-32.png",
-      "backgroundImage": "C:\\Users\\markus.konrad\\Synology\\Home\\Photos\\Others\\IMG_2402.PNG",
-      "backgroundImageOpacity": 0.4,
+      "backgroundImage": "C:\\Users\\markus.konrad\\Synology\\Home\\Photos\\Others\\azure2.png",
+      "backgroundImageOpacity": 0.1,
       "hidden": false
     },
     {
