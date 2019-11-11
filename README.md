@@ -60,3 +60,4 @@ Goal was to have a simple step by step guide on a system refresh.
 * Setup Printer (Printers and Scanners --> Add --> Select the printer --> Add device)
 * Install Docker for Windows ([Link](https://www.docker.com/products/docker-desktop)) and restart which triggers the  Hyper-V installation
 * Install Fiddler ([Link](https://www.telerik.com/fiddler))
+* Install Adobe Acrobat Reader DC (**Note:** Make sure all checkboxes like Virus Scan trial etc. are disabled before download!)
