@@ -42,6 +42,14 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install and setup Remote Desktop Manager (RDCMan)
 * Install MS Terminal
 * Install poshgit - ([Link Download](<https://www.powershellgallery.com/packages/posh-git>) / [Link Setup](<https://github.com/dahlbyk/posh-git>) - Some Powershell commands to be executed)
+* Install oh-my-posh - ([Link Download](<https://github.com/JanDeDobbeleer/oh-my-posh>))
+* Set PowerShell profile to the new Theme of oh-my-posh running `notepad $PROFILE` and adding 3 lines (see also [PowerShell/Microsoft.PowerShell_profile.ps1](PowerShell/Microsoft.PowerShell_profile.ps1) for more details)
+  * `Import-Module posh-git`
+  * `Import-Module oh-my-posh`
+  * `Set-Theme Paradox`
+* Install powerline-fonts to enable the special icons in the prompt bar showing GIT status etc. ([Link Download](<https://github.com/powerline/fonts>))
+* Open Powershell settings via UI and select `Font --> DejaVu Sans Mono for Powerline`
+* Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](\WindowsTerminal\profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
 * Install Visual Studio Code (Incl. File and Context Menu setting to `true`)
 * Install Extensions for Visual Studio Code
   * `C#`
@@ -61,3 +69,5 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Docker for Windows ([Link](https://www.docker.com/products/docker-desktop)) and restart which triggers the  Hyper-V installation
 * Install Fiddler ([Link](https://www.telerik.com/fiddler))
 * Install Adobe Acrobat Reader DC (**Note:** Make sure all checkboxes like Virus Scan trial etc. are disabled before download!)
+* Install Azure DevOps Integration for Excel-TFS/AzureDevOps connection ([Link Download](<https://visualstudio.microsoft.com/de/downloads/?q=Office+Integration&rr=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fdevops%2Fboards%2Fbacklogs%2Foffice%2Ftrack-work%3Fview%3Dazure-devops>))
+* Install Paint dot NET Free Version ([Link Download](<https://www.getpaint.net/download.html>))
