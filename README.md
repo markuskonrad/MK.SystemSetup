@@ -71,3 +71,5 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Adobe Acrobat Reader DC (**Note:** Make sure all checkboxes like Virus Scan trial etc. are disabled before download!)
 * Install Azure DevOps Integration for Excel-TFS/AzureDevOps connection ([Link Download](<https://visualstudio.microsoft.com/de/downloads/?q=Office+Integration&rr=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fdevops%2Fboards%2Fbacklogs%2Foffice%2Ftrack-work%3Fview%3Dazure-devops>))
 * Install Paint dot NET Free Version ([Link Download](<https://www.getpaint.net/download.html>))
+* Install Python ([Link Download](<https://www.python.org/>))
+* Install Synology Note Station ([Link Download](<https://www.synology.com/de-de/support/download/DS716+II#utilities>))
