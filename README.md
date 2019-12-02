@@ -73,3 +73,13 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Paint dot NET Free Version ([Link Download](<https://www.getpaint.net/download.html>))
 * Install Python ([Link Download](<https://www.python.org/>))
 * Install Synology Note Station ([Link Download](<https://www.synology.com/de-de/support/download/DS716+II#utilities>))
+* Install Node.js without tools ([Link Download](<https://nodejs.org/en/download/>))
+* Install WSL via 'Turn Windows features on or off'
+  * Windows Subsystem for Linux
+  * Virtual Machine Platform
+* Install Ubutu via Store
+* Set up Tethering
+* Set up SSRS Reporting Environment for D365 (Status 2019-12-02)
+  * Install Visual Studio 2015 Enterprise in English
+  * Install SQL Server Data Tools (SSDT) in English ([Link Download](<https://docs.microsoft.com/en-us/previous-versions/mt186501(v=msdn.10)?redirectedfrom=MSDN>))
+  * Install Microsoft Dynamics 365 Report Authoring Extensions ([Link Download](<https://www.microsoft.com/en-us/download/confirmation.aspx?id=50375>))
