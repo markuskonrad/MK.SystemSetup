@@ -8,6 +8,8 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Chrome
 * Install Firefox
 * Install latest version of Visual Studio (e.g. 2019 Enterprise)
+  * Set Color Theme "Dark"
+  * Track Active Item in Solution Explorer "True"
 * Outlook
   * Set Timezones (Settings --> Calendar --> Timezones)
     * `GE` - `UTC+01:00`
@@ -83,3 +85,4 @@ Goal was to have a simple step by step guide on a system refresh.
   * Install Visual Studio 2015 Enterprise in English
   * Install SQL Server Data Tools (SSDT) in English ([Link Download](<https://docs.microsoft.com/en-us/previous-versions/mt186501(v=msdn.10)?redirectedfrom=MSDN>))
   * Install Microsoft Dynamics 365 Report Authoring Extensions ([Link Download](<https://www.microsoft.com/en-us/download/confirmation.aspx?id=50375>))
+* Install Adobe Flash (Cam)
