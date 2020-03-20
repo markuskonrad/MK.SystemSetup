@@ -86,3 +86,4 @@ Goal was to have a simple step by step guide on a system refresh.
   * Install SQL Server Data Tools (SSDT) in English ([Link Download](<https://docs.microsoft.com/en-us/previous-versions/mt186501(v=msdn.10)?redirectedfrom=MSDN>))
   * Install Microsoft Dynamics 365 Report Authoring Extensions ([Link Download](<https://www.microsoft.com/en-us/download/confirmation.aspx?id=50375>))
 * Install Adobe Flash (Cam)
+* Install 7-Zip ([Link Download](<https://7-zip.de/download.html>))
