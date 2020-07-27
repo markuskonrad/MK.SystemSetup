@@ -4,12 +4,10 @@ This guide explains the setup and the tools I use currently for my daily busines
 Goal was to have a simple step by step guide on a system refresh.
 
 * Set windows to `Dark` Mode (Colors --> Choose your color --> Dark)
+* Set "View --> File name extensions" to `True`
 * Set Textsize to `100%` (Rightclick at Desktop --> Displaysettings - Change the size of text, apps, and other items --> 100%)
 * Install Chrome
 * Install Firefox
-* Install latest version of Visual Studio (e.g. 2019 Enterprise)
-  * Set Color Theme "Dark"
-  * Track Active Item in Solution Explorer "True"
 * Outlook
   * Set Timezones (Settings --> Calendar --> Timezones)
     * `GE` - `UTC+01:00`
@@ -17,20 +15,38 @@ Goal was to have a simple step by step guide on a system refresh.
     * `RO` - `UTC+02:00`
   * Deactivate Automatic Mark as Read (Settings --> Mail --> Outlook panes --> Reading Pane... --> Uncheck all boxes)
   * Remove feature bar on right hand side (Click small hand-button in the Quick Access Bar to switch to Mouse Mode - [Link](<https://answers.microsoft.com/en-us/msoffice/forum/all/outlook-the-pop-out-button-is-missing/1b13d713-15db-4e8d-9e4a-004f5e22a089>))
-* Install Visio
-* Install MS Project
-* Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>))
-* Setup GMail on Firefox
+  * Set spacing  [Link](<https://support.microsoft.com/en-us/office/prefer-tighter-spacing-7aedcfaf-03de-49ad-9bf8-8730134f1f3b?ui=en-us&rs=en-us&ad=us>)
+* Install Visio Professional
+* Install MS Project (Optional since DevOps Sync not working anymore)
+* Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>)) in English
+* Setup GMail on Chrome
 * SignIn to Teams
-* Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor
 * Install GitExtensions ([Link](<https://github.com/gitextensions/gitextensions>) - Scroll down on Tag-Page)
+  * Confirue all setting (green)
+  * Set merge and diff tools (...vsversion/Enterprise/Common7/IDE/devenv.exe)
+  * Setup git ssh keys
+* Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor
 * Clone required GIT repos to `C:\git`
-* Install AutoHotKey ([Link](<https://www.autohotkey.com/>))
 * Clone `MK.AutoHotKey.git` and run `default.ahk`
+* Install AutoHotKey ([Link](<https://www.autohotkey.com/>))
 * Register `default.ahk` on startup ([Link](<https://www.maketecheasier.com/schedule-autohotkey-startup-windows/>))
+* Install latest version of Visual Studio (e.g. 2019 Enterprise)
+  * Set Color Theme "Dark"
+  * Track Active Item in Solution Explorer `True`
+  * Show pinned tabs in a separate row
 * Install Synology Drive (Documents and Home)
-* Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))
-* Install Putty (config comes from Registry)
+  * Create Folders
+    * C:\Users\markus.konrad\Synology\Home
+    * C:\Users\markus.konrad\Synology\Team
+  * Uncheck "Create new SynologyDrive Folder"
+  * Add Sync Actions
+    * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments]
+    * /document --> C:\Users\markus.konrad\Synology\Team
+    * "Local Sync-Folder" --> Maybe later
+  * Set Notifications to `false`
+* Putty
+  * Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))
+  * Install Putty (config comes from Registry)
 * Install and setup WinSCP - Sessions should come with Putty restore of Registry
 * Import Firefox Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
 * Import Chrome Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Chrome`)
@@ -40,7 +56,8 @@ Goal was to have a simple step by step guide on a system refresh.
 * Setup DCS VPN ([Link Internal](https://dcshelp.service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0090542))
 * Install latest .NET Framework DevKit
 * Install and activate Screenpresso
-* Set Screenpresso storage folder to `OneDrive\Pics` and the limit to `500` files
+  * Set Screenpresso storage folder to `OneDrive\Pics` and the limit to `500` files
+  * Set "Show quick capture window to `false`
 * Install and setup Remote Desktop Manager (RDCMan)
 * Install MS Terminal
 * Install poshgit - ([Link Download](<https://www.powershellgallery.com/packages/posh-git>) / [Link Setup](<https://github.com/dahlbyk/posh-git>) - Some Powershell commands to be executed)
@@ -73,13 +90,13 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Adobe Acrobat Reader DC (**Note:** Make sure all checkboxes like Virus Scan trial etc. are disabled before download!)
 * Install Azure DevOps Integration for Excel-TFS/AzureDevOps connection ([Link Download](<https://visualstudio.microsoft.com/de/downloads/?q=Office+Integration&rr=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fdevops%2Fboards%2Fbacklogs%2Foffice%2Ftrack-work%3Fview%3Dazure-devops>))
 * Install Paint dot NET Free Version ([Link Download](<https://www.getpaint.net/download.html>))
-* Install Python ([Link Download](<https://www.python.org/>))
+* Install Python ([Link Download](<https://www.python.org/>)) and set path to `true`
 * Install Synology Note Station ([Link Download](<https://www.synology.com/de-de/support/download/DS716+II#utilities>))
 * Install Node.js without tools ([Link Download](<https://nodejs.org/en/download/>))
 * Install WSL via 'Turn Windows features on or off'
   * Windows Subsystem for Linux
   * Virtual Machine Platform
-* Install Ubutu via Store
+* Install Ubuntu via Store
 * Set up Tethering
 * Set up SSRS Reporting Environment for D365 (Status 2019-12-02)
   * Install Visual Studio 2015 Enterprise in English
@@ -87,3 +104,8 @@ Goal was to have a simple step by step guide on a system refresh.
   * Install Microsoft Dynamics 365 Report Authoring Extensions ([Link Download](<https://www.microsoft.com/en-us/download/confirmation.aspx?id=50375>))
 * Install Adobe Flash (Cam)
 * Install 7-Zip ([Link Download](<https://7-zip.de/download.html>))
+* Install Streamdeck
+  * Backup via Synology folder Tools\Streamdeck
+* Install Slack (or browser - Lets see)
+* Setup Home VPN
+* Install Logitech Drivers/Tools
