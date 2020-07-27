@@ -7,6 +7,8 @@ Goal was to have a simple step by step guide on a system refresh.
 * Set "View --> File name extensions" to `True`
 * Set Textsize to `100%` (Rightclick at Desktop --> Displaysettings - Change the size of text, apps, and other items --> 100%)
 * Install Chrome
+  * Import profiles from `userfolder\Synology\Home\Profiles\Chrome\Bookmarks`
+  * Relevant Profiles `Markus`, `ACN`
 * Install Firefox
 * Outlook
   * Set Timezones (Settings --> Calendar --> Timezones)
@@ -58,8 +60,9 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install and activate Screenpresso
   * Set Screenpresso storage folder to `OneDrive\Pics` and the limit to `500` files
   * Set "Show quick capture window to `false`
-* Install and setup Remote Desktop Manager (RDCMan)
+* Install and setup Remote Desktop Manager (RDCMan) from Synology Tools folder
 * Install MS Terminal
+* Set Execution Policy in PowerShell `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
 * Install poshgit - ([Link Download](<https://www.powershellgallery.com/packages/posh-git>) / [Link Setup](<https://github.com/dahlbyk/posh-git>) - Some Powershell commands to be executed)
 * Install oh-my-posh - ([Link Download](<https://github.com/JanDeDobbeleer/oh-my-posh>))
 * Set PowerShell profile to the new Theme of oh-my-posh running `notepad $PROFILE` and adding 3 lines (see also [PowerShell/Microsoft.PowerShell_profile.ps1](PowerShell/Microsoft.PowerShell_profile.ps1) for more details)
@@ -69,15 +72,17 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install powerline-fonts to enable the special icons in the prompt bar showing GIT status etc. ([Link Download](<https://github.com/powerline/fonts>))
 * Open Powershell settings via UI and select `Font --> DejaVu Sans Mono for Powerline`
 * Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](WindowsTerminal/profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
-* Install Visual Studio Code (Incl. File and Context Menu setting to `true`)
-* Install Extensions for Visual Studio Code
-  * `C#`
-  * `Azure Repos`
-  * `Debugger for Chrome`
-  * `Power Shell`
-  * `Python`
-  * `markdownlint`
-  * `Docker`
+* Visual Studio Code
+  * Install Visual Studio Code (Incl. File and Context Menu setting to `true`)
+  * Install Extensions for Visual Studio Code
+    * `C#`
+    * `Azure Repos`
+    * `Debugger for Chrome`
+    * `Power Shell`
+    * `Python`
+    * `markdownlint`
+    * `Docker`
+    * `GitLens`
 * Install ThinkCell for PowerPoint ([Link Internal](https://ts.accenture.com/sites/QuickPresentationToolkit/tcdl/default.aspx ))
 * Run Filezilla from (`userfolder\Synology\Home\Tools\FileZilla-<version>`)
 * Import Filezilla profile from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
@@ -109,3 +114,4 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Slack (or browser - Lets see)
 * Setup Home VPN
 * Install Logitech Drivers/Tools
+* Dump C-Backups to new environment
