@@ -18,6 +18,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * Deactivate Automatic Mark as Read (Settings --> Mail --> Outlook panes --> Reading Pane... --> Uncheck all boxes)
   * Remove feature bar on right hand side (Click small hand-button in the Quick Access Bar to switch to Mouse Mode - [Link](<https://answers.microsoft.com/en-us/msoffice/forum/all/outlook-the-pop-out-button-is-missing/1b13d713-15db-4e8d-9e4a-004f5e22a089>))
   * Set spacing  [Link](<https://support.microsoft.com/en-us/office/prefer-tighter-spacing-7aedcfaf-03de-49ad-9bf8-8730134f1f3b?ui=en-us&rs=en-us&ad=us>)
+  * Enabled Calendar Weeks (Options --> Calendar --> Display Options --> Set "Show week numbers in the month view and the DAte Navigator" to `True`)
 * Install Visio Professional
 * Install MS Project (Optional since DevOps Sync not working anymore)
 * Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>)) in English
@@ -45,7 +46,7 @@ Goal was to have a simple step by step guide on a system refresh.
     * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments]
     * /document --> C:\Users\markus.konrad\Synology\Team
     * "Local Sync-Folder" --> Maybe later
-  * Set Notifications to `false`
+  * Set Notifications to `False`
 * Putty
   * Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))
   * Install Putty (config comes from Registry)
@@ -59,7 +60,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install latest .NET Framework DevKit
 * Install and activate Screenpresso
   * Set Screenpresso storage folder to `OneDrive\Pics` and the limit to `500` files
-  * Set "Show quick capture window to `false`
+  * Set "Show quick capture window to `False`
 * Install and setup Remote Desktop Manager (RDCMan) from Synology Tools folder
 * Install MS Terminal
 * Set Execution Policy in PowerShell `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
@@ -73,7 +74,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Open Powershell settings via UI and select `Font --> DejaVu Sans Mono for Powerline`
 * Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](WindowsTerminal/profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
 * Visual Studio Code
-  * Install Visual Studio Code (Incl. File and Context Menu setting to `true`)
+  * Install Visual Studio Code (Incl. File and Context Menu setting to `True`)
   * Install Extensions for Visual Studio Code
     * `C#`
     * `Azure Repos`
@@ -95,7 +96,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Adobe Acrobat Reader DC (**Note:** Make sure all checkboxes like Virus Scan trial etc. are disabled before download!)
 * Install Azure DevOps Integration for Excel-TFS/AzureDevOps connection ([Link Download](<https://visualstudio.microsoft.com/de/downloads/?q=Office+Integration&rr=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fdevops%2Fboards%2Fbacklogs%2Foffice%2Ftrack-work%3Fview%3Dazure-devops>))
 * Install Paint dot NET Free Version ([Link Download](<https://www.getpaint.net/download.html>))
-* Install Python ([Link Download](<https://www.python.org/>)) and set path to `true`
+* Install Python ([Link Download](<https://www.python.org/>)) and set path to `True`
 * Install Synology Note Station ([Link Download](<https://www.synology.com/de-de/support/download/DS716+II#utilities>))
 * Install Node.js without tools ([Link Download](<https://nodejs.org/en/download/>))
 * Install WSL via 'Turn Windows features on or off'
