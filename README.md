@@ -30,9 +30,10 @@ Goal was to have a simple step by step guide on a system refresh.
   * Setup git ssh keys (copy from old system ...user\.ssh)
 * Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor
 * Clone required GIT repos to `C:\git`
-* Clone `MK.AutoHotKey.git` and run `default.ahk`
-* Install AutoHotKey ([Link](<https://www.autohotkey.com/>))
-* Register `default.ahk` on startup ([Link](<https://www.maketecheasier.com/schedule-autohotkey-startup-windows/>))
+* AutoHotKey
+  * Clone `MK.AutoHotKey.git` and run `default.ahk`
+  * Install AutoHotKey ([Link](<https://www.autohotkey.com/>))
+  * Register `default.ahk` on startup ([Link](<https://www.maketecheasier.com/schedule-autohotkey-startup-windows/>))
 * Install latest version of Visual Studio (e.g. 2019 Enterprise)
   * Set Color Theme "Dark"
   * Track Active Item in Solution Explorer `True`
@@ -50,7 +51,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Putty
   * Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))
   * Install Putty (config comes from Registry)
-* Install and setup WinSCP - Sessions should come with Putty restore of Registry
+* Install and setup WinSCP - Sessions should come with Putty restore of Registry (Optional, only if required at current engagement)
 * Import Firefox Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
 * Import Chrome Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Chrome`)
 * Import IE Bookmarks from Backup (`userfolder\Synology\Home\Profiles\IE`)
@@ -60,7 +61,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install latest .NET Framework DevKit
 * Install and activate Screenpresso
   * Set Screenpresso storage folder to `OneDrive\Pics` and the limit to `500` files
-  * Set "Show quick capture window to `False`
+  * Set "Show quick capture window" to `False`
 * Install and setup Remote Desktop Manager (RDCMan) from Synology Tools folder
 * Install MS Terminal
 * Set Execution Policy in PowerShell `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
@@ -85,8 +86,9 @@ Goal was to have a simple step by step guide on a system refresh.
     * `Docker`
     * `GitLens`
 * Install ThinkCell for PowerPoint ([Link Internal](https://ts.accenture.com/sites/QuickPresentationToolkit/tcdl/default.aspx ))
-* Run Filezilla from (`userfolder\Synology\Home\Tools\FileZilla-<version>`)
-* Import Filezilla profile from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
+* Filezilla
+  * Run Filezilla from (`userfolder\Synology\Home\Tools\FileZilla-<version>`)
+  * Import Filezilla profile from Backup (`userfolder\Synology\Home\Profiles\Filezilla`)
 * Install VLC ([Link](https://www.videolan.org/vlc/index.de.html))
 * Add Synology as Network Drive in QuickAccess
 * Install Postman App ([Link](https://www.getpostman.com/downloads/))
@@ -104,15 +106,15 @@ Goal was to have a simple step by step guide on a system refresh.
   * Virtual Machine Platform
 * Install Ubuntu via Store
 * Set up Tethering
-* Set up SSRS Reporting Environment for D365 (Status 2019-12-02)
+* Set up SSRS Reporting Environment for D365 (Status 2019-12-02) - (Optional, only if required at current engagement)
   * Install Visual Studio 2015 Enterprise in English
   * Install SQL Server Data Tools (SSDT) in English ([Link Download](<https://docs.microsoft.com/en-us/previous-versions/mt186501(v=msdn.10)?redirectedfrom=MSDN>))
   * Install Microsoft Dynamics 365 Report Authoring Extensions ([Link Download](<https://www.microsoft.com/en-us/download/confirmation.aspx?id=50375>))
-* Install Adobe Flash (Cam)
+* Install Adobe Flash (For cam´s only)
 * Install 7-Zip ([Link Download](<https://7-zip.de/download.html>))
 * Install Streamdeck
   * Backup via Synology folder Tools\Streamdeck
-* Install Slack (or browser - Lets see)
+* Install Slack (Optional, only if required at current engagement. Otherwise browser only)
 * Setup Home VPN
 * Install Logitech Drivers/Tools
 * Dump C-Backups to new environment
