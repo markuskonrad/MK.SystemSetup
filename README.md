@@ -118,3 +118,4 @@ Goal was to have a simple step by step guide on a system refresh.
 * Setup Home VPN
 * Install Logitech Drivers/Tools
 * Dump C-Backups to new environment
+* Install Azure Storage Explorer
