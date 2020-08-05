@@ -19,6 +19,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * Remove feature bar on right hand side (Click small hand-button in the Quick Access Bar to switch to Mouse Mode - [Link](<https://answers.microsoft.com/en-us/msoffice/forum/all/outlook-the-pop-out-button-is-missing/1b13d713-15db-4e8d-9e4a-004f5e22a089>))
   * Set spacing  [Link](<https://support.microsoft.com/en-us/office/prefer-tighter-spacing-7aedcfaf-03de-49ad-9bf8-8730134f1f3b?ui=en-us&rs=en-us&ad=us>)
   * Enabled Calendar Weeks (Options --> Calendar --> Display Options --> Set "Show week numbers in the month view and the DAte Navigator" to `True`)
+  * Verify and configure latest company signature
 * Install Visio Professional
 * Install MS Project (Optional since DevOps Sync not working anymore)
 * Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>)) in English
