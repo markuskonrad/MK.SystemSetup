@@ -76,7 +76,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * `Set-Theme Paradox`
 * Install powerline-fonts to enable the special icons in the prompt bar showing GIT status etc. ([Link Download](<https://github.com/powerline/fonts>))
   * Clone Repository
-  * Run install.ps1 - NOTE: Dont do this during Business Hours since the dialog is poping up all the time.
+  * Run `install.ps1` (**Note:** Don´t do this during business hours since the dialog is poping up all the time.)
 * Open Powershell settings via UI and select `Font --> Space Mono for Powerline`
 * Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](WindowsTerminal/profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
 * Visual Studio Code
