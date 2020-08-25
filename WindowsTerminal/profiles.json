@@ -1,12 +1,8 @@
-
 // To view the default settings, hold "alt" while clicking on the "Settings" button.
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
-
 {
   "$schema": "https://aka.ms/terminal-profiles-schema",
-
   "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-
   "profiles": [
     {
       // Make changes here to the powershell.exe profile
@@ -38,24 +34,30 @@
       "source": "Windows.Terminal.Azure"
     }
   ],
-
   // Add custom color schemes to this array
   "schemes": [],
-
   // Add any keybinding overrides to this array.
   // To unbind a default keybinding, set the command to "unbound"
   "keybindings": [
     {
       "command": "closeWindow",
-      "keys": [ "alt+f4" ]
+      "keys": [
+        "alt+f4"
+      ]
     },
     {
-      "command": "splitHorizontal",
-      "keys": [ "ctrl+-" ]
+      "command": {
+        "action": "splitPane",
+        "split": "vertical"
+      },
+      "keys": "ctrl+."
     },
     {
-      "command": "splitVertical",
-      "keys": [ "ctrl+." ]
+      "command": {
+        "action": "splitPane",
+        "split": "horizontal"
+      },
+      "keys": "ctrl+-"
     }
   ]
 }
