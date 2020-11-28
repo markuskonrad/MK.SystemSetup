@@ -90,6 +90,7 @@ Goal was to have a simple step by step guide on a system refresh.
     * `markdownlint`
     * `Docker`
     * `GitLens`
+  * Configure font to also use posh-git in VS Code Terminal using `Strg+p --> > User Settings --> User | Feature | Terminal | Integrated Font Family = DejaVu Sans Mono for Powerline`
 * Install ThinkCell for PowerPoint ([Link Internal](https://ts.accenture.com/sites/QuickPresentationToolkit/tcdl/default.aspx ))
 * Filezilla
   * Run Filezilla from (`userfolder\Synology\Home\Tools\FileZilla-<version>`)
