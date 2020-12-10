@@ -20,7 +20,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * Set spacing  [Link](<https://support.microsoft.com/en-us/office/prefer-tighter-spacing-7aedcfaf-03de-49ad-9bf8-8730134f1f3b?ui=en-us&rs=en-us&ad=us>)
   * Enabled Calendar Weeks (Options --> Calendar --> Display Options --> Set "Show week numbers in the month view and the DAte Navigator" to `True`)
   * Verify and configure latest company signature
-  * Enable Coffee-Break Buffer (Options --> Calendar --> Set "End appointments and meetings early" to `True` and keep defaults 5/10)
+  * Enable Coffee-Break Buffer (Options --> Calendar --> Set "End appointments and meetings early" to `True` and keep defaults 5/10 - [Link](<https://digital-brainzoom.de/outlook-meeting-timepuffer/>))
 * Word
   * Update Quick Access Toolbar by adding `Styles...`
 * Install Visio Professional
