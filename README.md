@@ -90,6 +90,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * Run `install.ps1` (**Note:** Don´t do this during business hours since the dialog is poping up all the time.)
 * Open Powershell settings via UI and select `Font --> Space Mono for Powerline`
 * Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](WindowsTerminal/profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
+* Configure Shortcuts for MS Terminal (PS and Ubuntu) ([Link](<https://www.hanselman.com/blog/how-to-make-command-prompt-powershell-or-any-shell-launch-from-the-start-menu-directly-into-windows-terminal>))
 * Visual Studio Code
   * Install Visual Studio Code (Incl. File and Context Menu setting to `True`)
   * Install Extensions for Visual Studio Code
