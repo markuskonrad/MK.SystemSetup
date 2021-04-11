@@ -77,7 +77,10 @@ Goal was to have a simple step by step guide on a system refresh.
 * Set Execution Policy in PowerShell `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
 * Install poshgit - ([Link Download](<https://www.powershellgallery.com/packages/posh-git>) / [Link Setup](<https://github.com/dahlbyk/posh-git>) - Some Powershell commands to be executed)
 * Install oh-my-posh - ([Link Download](<https://github.com/JanDeDobbeleer/oh-my-posh>))
-* Set PowerShell profile to the new Theme of oh-my-posh running `notepad $PROFILE` and adding 3 lines (see also [PowerShell/Microsoft.PowerShell_profile.ps1](PowerShell/Microsoft.PowerShell_profile.ps1) for more details)
+* Install icon pack `Install-Module -Name Terminal-Icons -Repository PSGallery` ([Link](<https://www.hanselman.com/blog/take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons>))
+* Insert font "AurulentSansMono Nerd Font" (System Settings just search for Fonts and import it via drag and drop) and set it in the Terminal profile `"fontFace": "AurulentSansMono Nerd Font",`. Font can be downloaded [here](<https://www.nerdfonts.com/font-downloads>) or used from the Fonts folder.
+* Set PowerShell profile to the new Theme of oh-my-posh running `notepad $PROFILE` and adding following lines (see also [PowerShell/Microsoft.PowerShell_profile.ps1](PowerShell/Microsoft.PowerShell_profile.ps1) for more details)
+  * `Import-Module -Name Terminal-Icons`
   * `Import-Module posh-git`
   * `Import-Module oh-my-posh`
   * `Set-Theme Paradox`
