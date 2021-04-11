@@ -84,6 +84,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * `Import-Module posh-git`
   * `Import-Module oh-my-posh`
   * `Set-Theme Paradox`
+  * Alternative Theme: `Set-Theme Powerlevel10k-Classic`
 * Install powerline-fonts to enable the special icons in the prompt bar showing GIT status etc. ([Link Download](<https://github.com/powerline/fonts>))
   * Clone Repository
   * Run `install.ps1` (**Note:** Don´t do this during business hours since the dialog is poping up all the time.)
