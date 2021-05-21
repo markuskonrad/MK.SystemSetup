@@ -48,6 +48,8 @@ Goal was to have a simple step by step guide on a system refresh.
   * Set Color Theme "Dark"
   * Track Active Item in Solution Explorer `True`
   * Show pinned tabs in a separate row
+  * Install Extensions for Visual Studio
+    * [Visual Studio Webessentials](<http://vswebessentials.com/>) - Via Extensions Feature in Visual Studio
 * Install Synology Drive (Documents and Home)
   * Create Folders
     * C:\Users\markus.konrad\Synology\Home
@@ -101,7 +103,8 @@ Goal was to have a simple step by step guide on a system refresh.
     * `Python`
     * `markdownlint`
     * `Docker`
-    * `GitLens`
+    * `GitLens` --> To be discussed next time since integraded already
+    * `Visual Studio Keymap` --> to use `Ctrl + K + D`
   * Configure font to also use posh-git in VS Code Terminal using `Strg+p --> > User Settings --> User | Feature | Terminal | Integrated Font Family = DejaVu Sans Mono for Powerline`
 * Install ThinkCell for PowerPoint ([Link Internal](https://ts.accenture.com/sites/QuickPresentationToolkit/tcdl/default.aspx ))
 * Filezilla
