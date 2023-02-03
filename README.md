@@ -71,6 +71,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Import IE Bookmarks from Backup (`userfolder\Synology\Home\Profiles\IE`)
 * Copy Firefox profile scripts to the Desktop (userfolder\Synology\Home\Profiles\Firefox)
 * Use KeePass from Synology Drive folder (`userfolder\Synology\Home\Tools\KeePass-2.20.1`)
+* Install Bitwarden (Setup of certificates via GIT instruction in Cert-GIT Repo)
 * Setup DCS VPN ([Link Internal](https://dcshelp.service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0090542))
 * Install latest .NET Framework DevKit
 * Install and activate Screenpresso
