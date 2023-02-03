@@ -53,11 +53,13 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Synology Drive (Documents and Home)
   * Create Folders
     * C:\Users\markus.konrad\Synology\Home
-    * C:\Users\markus.konrad\Synology\Team
+    * C:\Users\markus.konrad\Synology\Team\document
+    * * C:\Users\markus.konrad\Synology\Team\music
   * Uncheck "Create new SynologyDrive Folder"
   * Add Sync Actions
     * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments/Photos]
-    * /document --> C:\Users\markus.konrad\Synology\Team
+    * /document/ --> C:\Users\markus.konrad\Synology\Team\document
+    * /music/CURRENTSELECTION --> C:\Users\markus.konrad\Synology\Team\music
     * "Local Sync-Folder" --> Maybe later
   * Set Notifications to `False`
 * Putty
