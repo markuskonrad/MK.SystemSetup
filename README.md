@@ -37,7 +37,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install GitExtensions ([Link](<https://github.com/gitextensions/gitextensions>) - Scroll down on Tag-Page)
   * Confirue all setting (green)
   * Set merge and diff tools (...vsversion/Enterprise/Common7/IDE/devenv.exe)
-  * Setup git ssh keys (copy from old system ...user\.ssh)
+  * Setup git ssh keys (copy from old system `C:\Users\markus.konrad\.ssh`)
 * Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor
 * Clone required GIT repos to `C:\git`
 * AutoHotKey
