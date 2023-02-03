@@ -98,7 +98,6 @@ Goal was to have a simple step by step guide on a system refresh.
   * Install Extensions for Visual Studio Code
     * `C#`
     * `Azure Repos`
-    * `Debugger for Chrome`
     * `Power Shell`
     * `Python`
     * `markdownlint`
