@@ -28,7 +28,7 @@ Goal was to have a simple step by step guide on a system refresh.
     * Select `except if the body contains [[SENDINSTANT]]`
     * Save the rule
 * Word
-  * Update Quick Access Toolbar by adding `Styles...`
+  * Update Quick Access Toolbar by adding `Text Styles...`
 * Install Visio Professional
 * Install MS Project (Optional since DevOps Sync not working anymore)
 * Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>)) in English
