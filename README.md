@@ -56,7 +56,7 @@ Goal was to have a simple step by step guide on a system refresh.
     * C:\Users\markus.konrad\Synology\Team
   * Uncheck "Create new SynologyDrive Folder"
   * Add Sync Actions
-    * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments]
+    * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments/Photos]
     * /document --> C:\Users\markus.konrad\Synology\Team
     * "Local Sync-Folder" --> Maybe later
   * Set Notifications to `False`
