@@ -30,7 +30,7 @@ Goal was to have a simple step by step guide on a system refresh.
     * Select `except if the body contains [[SENDINSTANT]]`
     * Save the rule
 * Word
-  * Update Quick Access Toolbar by adding `Styles...`
+  * Update Quick Access Toolbar by adding `Text Styles...`
 * Install Visio Professional
 * Install MS Project (Optional since DevOps Sync not working anymore)
 * Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>)) in English
@@ -39,7 +39,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install GitExtensions ([Link](<https://github.com/gitextensions/gitextensions>) - Scroll down on Tag-Page)
   * Confirue all setting (green)
   * Set merge and diff tools (...vsversion/Enterprise/Common7/IDE/devenv.exe)
-  * Setup git ssh keys (copy from old system ...user\.ssh)
+  * Setup git ssh keys (copy from old system `C:\Users\markus.konrad\.ssh`)
 * Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor
 * Clone required GIT repos to `C:\git`
 * AutoHotKey
@@ -55,11 +55,13 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Synology Drive (Documents and Home)
   * Create Folders
     * C:\Users\markus.konrad\Synology\Home
-    * C:\Users\markus.konrad\Synology\Team
+    * C:\Users\markus.konrad\Synology\Team\document
+    * * C:\Users\markus.konrad\Synology\Team\music
   * Uncheck "Create new SynologyDrive Folder"
   * Add Sync Actions
-    * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments]
-    * /document --> C:\Users\markus.konrad\Synology\Team
+    * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments/Photos]
+    * /document/ --> C:\Users\markus.konrad\Synology\Team\document
+    * /music/CURRENTSELECTION --> C:\Users\markus.konrad\Synology\Team\music
     * "Local Sync-Folder" --> Maybe later
   * Set Notifications to `False`
 * Putty
@@ -71,6 +73,10 @@ Goal was to have a simple step by step guide on a system refresh.
 * Import IE Bookmarks from Backup (`userfolder\Synology\Home\Profiles\IE`)
 * Copy Firefox profile scripts to the Desktop (userfolder\Synology\Home\Profiles\Firefox)
 * Use KeePass from Synology Drive folder (`userfolder\Synology\Home\Tools\KeePass-2.20.1`)
+* Use Bitwarden (Setup of certificates via GIT instruction in Cert-GIT Repo) via portable version (userfolder\Synology\Home\Tools\Bitwarden)
+  * Custom Settings
+  * Server URL: vault.diekonrads.com
+  * Username: ...me
 * Setup DCS VPN ([Link Internal](https://dcshelp.service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0090542))
 * Install latest .NET Framework DevKit
 * Install and activate Screenpresso
@@ -100,7 +106,6 @@ Goal was to have a simple step by step guide on a system refresh.
   * Install Extensions for Visual Studio Code
     * `C#`
     * `Azure Repos`
-    * `Debugger for Chrome`
     * `Power Shell`
     * `Python`
     * `markdownlint`
@@ -142,3 +147,4 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Logitech Drivers/Tools
 * Dump C-Backups to new environment
 * Install Azure Storage Explorer
+* Install and setup Stream Deck
