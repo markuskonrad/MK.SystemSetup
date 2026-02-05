@@ -6,6 +6,7 @@ Goal was to have a simple step by step guide on a system refresh.
 * Windows (11)
   * Set windows to `Dark` Mode (Colors --> Choose your color --> Dark)
   * Set "View --> File name extensions" to `True`
+  * Set "View --> Compact View" to `True`
   * Set Textsize to `100%` (Rightclick at Desktop --> Displaysettings - Change the size of text, apps, and other items --> 100%)
   * Set Snipping Tool to Screenpresso (avoid standard Snipping Tool) (Einstellungen --> Barrierefreiheit --> Tastatur --> Verwenden Sie die Drucktaste, um das Snipping Tool zu öffnen = False)
 * Install Chrome
