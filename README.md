@@ -37,17 +37,18 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>)) in English
 * Setup GMail on Chrome
 * SignIn to Teams
-* Install GitExtensions ([Link](<https://github.com/gitextensions/gitextensions>) - Scroll down on Tag-Page)
-  * Confirue all setting (green)
-  * Set merge and diff tools (...vsversion/Enterprise/Common7/IDE/devenv.exe)
-  * Setup git ssh keys (copy from old system `C:\Users\markus.konrad\.ssh`)
-* Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor
+* ~~Install GitExtensions ([Link](<https://github.com/gitextensions/gitextensions>) - Scroll down on Tag-Page)~~
+  * ~~Confirue all setting (green)~~
+  * ~~Set merge and diff tools (...vsversion/Enterprise/Common7/IDE/devenv.exe)~~
+  * ~~Setup git ssh keys (copy from old system `C:\Users\markus.konrad\.ssh`)~~
+* Install Fork ([Link](https://git-fork.com/))
+* Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor~~
 * Clone required GIT repos to `C:\git`
 * AutoHotKey
   * Clone `MK.AutoHotKey.git` and run `default.ahk`
   * Install AutoHotKey ([Link](<https://www.autohotkey.com/>))
-  * Register `default.ahk` on startup ([Link](<https://www.maketecheasier.com/schedule-autohotkey-startup-windows/>))
-* Install latest version of Visual Studio (e.g. 2019 Enterprise)
+  * Register `default.ahk` on startup ([Link](<https://www.maketecheasier.com/schedule-autohotkey-startup-windows/>)/ [Local](<C:\Users\markus.konrad\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup>))
+* Install latest version of Visual Studio (e.g. 2026 Enterprise)
   * Set Color Theme "Dark"
   * Track Active Item in Solution Explorer `True`
   * Show pinned tabs in a separate row
@@ -65,10 +66,10 @@ Goal was to have a simple step by step guide on a system refresh.
     * /music/CURRENTSELECTION --> C:\Users\markus.konrad\Synology\Team\music
     * "Local Sync-Folder" --> Maybe later
   * Set Notifications to `False`
-* Putty
-  * Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))
-  * Install Putty (config comes from Registry)
-* Install and setup WinSCP - Sessions should come with Putty restore of Registry (Optional, only if required at current engagement)
+* ~~Putty~~
+  * ~~Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))~~
+  * ~~Install Putty (config comes from Registry)~~
+* ~~Install and setup WinSCP - Sessions should come with Putty restore of Registry (Optional, only if required at current engagement)~~
 * Import Firefox Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
 * Import Chrome Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Chrome`)
 * Import IE Bookmarks from Backup (`userfolder\Synology\Home\Profiles\IE`)
@@ -78,11 +79,14 @@ Goal was to have a simple step by step guide on a system refresh.
   * Custom Settings
   * Server URL: vault.diekonrads.com
   * Username: ...me
-* Setup DCS VPN ([Link Internal](https://dcshelp.service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0090542))
+* ~~Setup DCS VPN ([Link Internal](https://dcshelp.service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0090542))~~
 * Install latest .NET Framework DevKit
-* Install and activate Screenpresso
-  * Set Screenpresso storage folder to `OneDrive\Pics` and the limit to `500` files
+* Install and activate Screenpresso (v1.12.1 is still licensed)
+  * ~~Set Screenpresso storage folder to `OneDrive\Pics`~~
+  * Limit to `500` files
   * Set "Show quick capture window" to `False`
+  * Transfer license
+  * Copy files to new environment (if required)
 * Install and setup Remote Desktop Manager (RDCMan) from Synology Tools folder
 * Install MS Terminal
 * Set Execution Policy in PowerShell `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
