@@ -89,6 +89,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * Copy files to new environment (if required)
 * Install and setup Remote Desktop Manager (RDCMan) from Synology Tools folder
 * Install MS Terminal
+  * Open MS Terminal Settings -> Defaults -> Starting directory and define your current main repo folder (e.g. c:\EDF\git)
 * Set Execution Policy in PowerShell `Set-ExecutionPolicy Unrestricted -Scope CurrentUser`
 * Install poshgit - ([Link Download](<https://www.powershellgallery.com/packages/posh-git>) / [Link Setup](<https://github.com/dahlbyk/posh-git>) - Some Powershell commands to be executed)
 * Install oh-my-posh - ([Link Download](<https://github.com/JanDeDobbeleer/oh-my-posh>))
