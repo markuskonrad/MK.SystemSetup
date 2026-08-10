@@ -8,7 +8,7 @@ Goal was to have a simple step by step guide on a system refresh.
   * Set "View --> File name extensions" to `True`
   * Set "View --> Compact View" to `True`
   * Set Textsize to `100%` (Rightclick at Desktop --> Displaysettings - Change the size of text, apps, and other items --> 100%)
-  * Set Snipping Tool to Screenpresso (avoid standard Snipping Tool) (Einstellungen --> Barrierefreiheit --> Tastatur --> Verwenden Sie die Drucktaste, um das Snipping Tool zu öffnen = False)
+  * Set Snipping Tool to Screenpresso (avoid standard Snipping Tool) (Settings --> Accessibility --> Keyboard --> Use the Print screen key to open screen captur = False)
 * Install Chrome
   * Import profiles from `userfolder\Synology\Home\Profiles\Chrome\Bookmarks`
   * Relevant Profiles `Markus`, `ACN`
@@ -32,18 +32,14 @@ Goal was to have a simple step by step guide on a system refresh.
     * Save the rule
 * Word
   * Update Quick Access Toolbar by adding `Text Styles...`
-* Install Visio Professional
-* Install MS Project (Optional since DevOps Sync not working anymore)
+* Install Visio Professional [Optional]
+* Install MS Project [Optional]
 * Install Notepad++ ([Link](<https://notepad-plus-plus.org/downloads/>)) in English
 * Setup GMail on Chrome
 * SignIn to Teams
-* ~~Install GitExtensions ([Link](<https://github.com/gitextensions/gitextensions>) - Scroll down on Tag-Page)~~
-  * ~~Confirue all setting (green)~~
-  * ~~Set merge and diff tools (...vsversion/Enterprise/Common7/IDE/devenv.exe)~~
-  * ~~Setup git ssh keys (copy from old system `C:\Users\markus.konrad\.ssh`)~~
 * Install Fork ([Link](https://git-fork.com/))
 * Setup GIT for windows (Part of GitExtensions) - Use Notepad++ as default editor~~
-* Clone required GIT repos to `C:\git`
+* Clone required GIT repos to `C:\git` or `C:\EDF\git`
 * AutoHotKey
   * Clone `MK.AutoHotKey.git` and run `default.ahk`
   * Install AutoHotKey ([Link](<https://www.autohotkey.com/>))
@@ -54,35 +50,14 @@ Goal was to have a simple step by step guide on a system refresh.
   * Show pinned tabs in a separate row
   * Install Extensions for Visual Studio
     * [Visual Studio Webessentials](<http://vswebessentials.com/>) - Via Extensions Feature in Visual Studio
-* Install Synology Drive (Documents and Home)
-  * Create Folders
-    * C:\Users\markus.konrad\Synology\Home
-    * C:\Users\markus.konrad\Synology\Team\document
-    * * C:\Users\markus.konrad\Synology\Team\music
-  * Uncheck "Create new SynologyDrive Folder"
-  * Add Sync Actions
-    * /home/Drive/ --> C:\Users\markus.konrad\SynologyDrive\Home [All except Moments/Photos]
-    * /document/ --> C:\Users\markus.konrad\Synology\Team\document
-    * /music/CURRENTSELECTION --> C:\Users\markus.konrad\Synology\Team\music
-    * "Local Sync-Folder" --> Maybe later
-  * Set Notifications to `False`
-* ~~Putty~~
-  * ~~Export Registry Settings for Putty from previous system and import at new system ([Link](https://stackoverflow.com/questions/13023920/how-to-export-import-putty-sessions-list))~~
-  * ~~Install Putty (config comes from Registry)~~
-* ~~Install and setup WinSCP - Sessions should come with Putty restore of Registry (Optional, only if required at current engagement)~~
 * Import Firefox Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Firefox`)
 * Import Chrome Bookmarks from Backup (`userfolder\Synology\Home\Profiles\Chrome`)
 * Import IE Bookmarks from Backup (`userfolder\Synology\Home\Profiles\IE`)
 * Copy Firefox profile scripts to the Desktop (userfolder\Synology\Home\Profiles\Firefox)
 * Use KeePass from Synology Drive folder (`userfolder\Synology\Home\Tools\KeePass-2.20.1`)
-* Use Bitwarden (Setup of certificates via GIT instruction in Cert-GIT Repo) via portable version (userfolder\Synology\Home\Tools\Bitwarden)
-  * Custom Settings
-  * Server URL: vault.diekonrads.com
-  * Username: ...me
-* ~~Setup DCS VPN ([Link Internal](https://dcshelp.service-now.com/nav_to.do?uri=%2Fkb_view.do%3Fsysparm_article%3DKB0090542))~~
 * Install latest .NET Framework DevKit
 * Install and activate Screenpresso (v1.12.1 is still licensed)
-  * ~~Set Screenpresso storage folder to `OneDrive\Pics`~~
+  * Set Screenpresso storage folder to `~\Userfolder\Pictures\Screenpresso`
   * Limit to `500` files
   * Set "Show quick capture window" to `False`
   * Transfer license
@@ -133,24 +108,12 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install Azure DevOps Integration for Excel-TFS/AzureDevOps connection ([Link Download](<https://visualstudio.microsoft.com/de/downloads/?q=Office+Integration&rr=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fazure%2Fdevops%2Fboards%2Fbacklogs%2Foffice%2Ftrack-work%3Fview%3Dazure-devops>))
 * Install Paint dot NET Free Version ([Link Download](<https://www.getpaint.net/download.html>))
 * Install Python ([Link Download](<https://www.python.org/>)) and set path to `True`
-* Install Synology Note Station ([Link Download](<https://www.synology.com/de-de/support/download/DS716+II#utilities>))
 * Install Node.js without tools ([Link Download](<https://nodejs.org/en/download/>))
 * Install WSL via 'Turn Windows features on or off'
   * Windows Subsystem for Linux
   * Virtual Machine Platform
-* Install Ubuntu via Store
-* Set up Tethering
-* Set up SSRS Reporting Environment for D365 (Status 2019-12-02) - (Optional, only if required at current engagement)
-  * Install Visual Studio 2015 Enterprise in English
-  * Install SQL Server Data Tools (SSDT) in English ([Link Download](<https://docs.microsoft.com/en-us/previous-versions/mt186501(v=msdn.10)?redirectedfrom=MSDN>))
-  * Install Microsoft Dynamics 365 Report Authoring Extensions ([Link Download](<https://www.microsoft.com/en-us/download/confirmation.aspx?id=50375>))
-* Install Adobe Flash (For cam´s only)
-* Install 7-Zip ([Link Download](<https://7-zip.de/download.html>))
+* Install Ubuntu via Store [Optional]
+* Install 7-Zip ([Link Download](https://7-zip.org/))
 * Install Streamdeck
   * Backup via Synology folder Tools\Streamdeck
-* Install Slack (Optional, only if required at current engagement. Otherwise browser only)
-* Setup Home VPN
 * Install Logitech Drivers/Tools
-* Dump C-Backups to new environment
-* Install Azure Storage Explorer
-* Install and setup Stream Deck
