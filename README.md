@@ -70,17 +70,22 @@ Goal was to have a simple step by step guide on a system refresh.
 * Install oh-my-posh - ([Link Download](<https://github.com/JanDeDobbeleer/oh-my-posh>))
 * Install icon pack `Install-Module -Name Terminal-Icons -Repository PSGallery` ([Link](<https://www.hanselman.com/blog/take-your-windows-terminal-and-powershell-to-the-next-level-with-terminal-icons>))
 * Insert font "AurulentSansMono Nerd Font" (System Settings just search for Fonts and import it via drag and drop) and set it in the Terminal profile `"fontFace": "AurulentSansMono Nerd Font",`. Font can be downloaded [here](<https://www.nerdfonts.com/font-downloads>) or used from the Fonts folder.
-* Set PowerShell profile to the new Theme of oh-my-posh running `notepad $PROFILE` and adding following lines (see also [PowerShell/Microsoft.PowerShell_profile.ps1](PowerShell/Microsoft.PowerShell_profile.ps1) for more details)
-  * `Import-Module -Name Terminal-Icons`
-  * `Import-Module posh-git`
-  * `Import-Module oh-my-posh`
-  * `Set-Theme Paradox`
-  * Alternative Theme: `Set-Theme Powerlevel10k-Classic`
-* Install powerline-fonts to enable the special icons in the prompt bar showing GIT status etc. ([Link Download](<https://github.com/powerline/fonts>))
-  * Clone Repository
-  * Run `install.ps1` (**Note:** Don´t do this during business hours since the dialog is poping up all the time.)
-* Open Powershell settings via UI and select `Font --> Space Mono for Powerline`
-* Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](WindowsTerminal/profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
+* Set PowerShell profile to the new Theme of oh-my-posh running `notepad $PROFILE` and adding following lines (see also [PowerShell/Microsoft.PowerShell_profile.ps1](PowerShell/Microsoft.PowerShell_profile.ps1) for more details) - The templates are stored in the git repo.
+
+```
+Import-Module -Name Terminal-Icons
+Import-Module posh-git
+oh-my-posh init pwsh --config "C:\EDF\git\MK.SystemSetup\OhMyPoshThemes\paradox-mko.omp.json" | Invoke-Expression
+Import-Module -Name Terminal-Icons
+```
+* **IMPORTANT:** Afterwards, open Terminal --> Settings --> Defaults --> Appearance --> Font face --> AurulentSansMono NF
+
+* [OBSOLETE] Alternative Theme: `Set-Theme Powerlevel10k-Classic`
+* [OBSOLETE] Install powerline-fonts to enable the special icons in the prompt bar showing GIT status etc. ([Link Download](<https://github.com/powerline/fonts>))
+* [OBSOLETE] Clone Repository
+* [OBSOLETE] Run `install.ps1` (**Note:** Don´t do this during business hours since the dialog is poping up all the time.)
+* [OBSOLETE] Open Powershell settings via UI and select `Font --> Space Mono for Powerline`
+* [OBSOLETE] Open MS Terminal settings and update settings according to the profiles.json file in WindowsTerminal folder ([WindowsTerminal/profiles.json](WindowsTerminal/profiles.json), [Link](<https://www.hanselman.com/blog/HowToMakeAPrettyPromptInWindowsTerminalWithPowerlineNerdFontsCascadiaCodeWSLAndOhmyposh.aspx>))
 * Configure Shortcuts for MS Terminal (PS and Ubuntu) ([Link](<https://www.hanselman.com/blog/how-to-make-command-prompt-powershell-or-any-shell-launch-from-the-start-menu-directly-into-windows-terminal>))
 * Visual Studio Code
   * Install Visual Studio Code (Incl. File and Context Menu setting to `True`)
